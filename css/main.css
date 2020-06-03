@@ -1,0 +1,431 @@
+.quick-reservation {
+    padding-top: 70px;
+}
+.quick-reservation-flex-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.section-title {
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.quick-reservation-left-column {
+    max-width: 45%;
+}
+.quick-reservation-right-column {
+    max-width: 51%;
+}
+.quick-reservation-btn {
+    padding: 0 0 0 20px;
+    margin-bottom: 24px;
+    width: 100%;
+    height: 70px;
+}
+.quick-reservation-btn-sumbit {
+    padding: 0;
+    margin-right: 30px;
+    background-color: #cc9933;
+    color: #fff;
+    height: 70px;
+    width: 160px;
+}
+.quick-reservation-description {
+    display: inline-block;
+}
+.quick-reservation-description-number {
+    color: #cc9933;
+}
+.quick-reservation-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.quick-reservation-article {
+    padding: 230px 230px 40px 40px;
+    position: relative;
+}
+.quick-reservation-article-title {
+    margin: 0 0 40px 0;
+    color: #fff;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.quick-reservation-article-price {
+    margin-right: 40px;
+    color: #b8aca6;
+    font-size: 35px;
+    display: inline-block;
+}
+.quick-reservation-article-description {
+    padding-right: 15px;
+    color: #ffcc66;
+    background: url("../img/arrow.png") no-repeat;
+    background-position: right center;
+}
+.about-us-description {
+    margin: 0;
+    padding: 0 230px 0 40px;
+}
+.about-us {
+    margin-bottom: 65px;
+}
+.services {
+    margin-bottom: 70px;
+}
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services-list-item {
+    margin-bottom: 24px;
+    background-color: #fff;
+    max-width: 48.8%;
+    border-radius: 12px;
+}
+.services-list-item-link {
+    padding-right: 15px;
+    background: url("../img/arrow2.png") no-repeat;
+    background-position: right center;
+    color: #cc9933;
+    font-size: 22px;
+    font-weight: 500;
+}
+.services-list-item-article {
+    padding: 35px 100px 40px 40px;
+}
+.services-list-item-title {
+    margin: 0 0 20px;
+}
+.services-list-item-article-descr {
+    margin: 0;
+    padding: 0 25px 0 0;
+}
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.advantages-list-item {
+    margin-bottom: 24px;
+    padding: 45px 39px 42px 45px;
+    max-width: 23.5%;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.advantages-list-item-img {
+    margin-bottom: 23px;
+}
+.advantages-list-item-descr {
+    margin: 0;
+}
+.advantages {
+    margin-bottom: 70px;
+}
+.placement {
+    margin-bottom: 65px;
+}
+.placement-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.placement-list-item {
+    margin-bottom: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    z-index: 1;
+}
+.placement-list-item:last-child {
+    padding: 382px 40px 0;
+    margin-bottom: 0;
+    position: relative;
+}
+.placement-list-last-item-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+
+}
+.placement-list-item-wrap {
+    padding: 20px 45px 24px 44px;
+}
+.placement-list-item-price {
+    margin: 0 0 10px;
+    background: url(../img/groupe1.png) no-repeat;
+    background-position: right center;
+}
+.placement-list-item-price-strong {
+    font-weight: 700;
+    font-size: 22px;
+}
+.placement-list-item-place {
+    margin: 0 0 10px;
+}
+.placement-list-item-town {
+    margin: 0 0 10px;
+    color: #999;
+}
+.placement-list-item-btn {
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #cc9933;
+    font-weight: 700;
+    color: #cc9933;
+    width: 100px;
+    height: 40px;
+}
+.placement-list-last-item-link {
+    padding-right: 20px;
+    background: url(../img/rect.png) no-repeat;
+    background-position: right center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+.contacts-and-blog {
+    margin-bottom: 22px;
+}
+.contacts-and-blog-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts {
+    width: 40%;
+}
+.contacts-wrap {
+    padding: 0 44px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.contacts-list {
+    font-style: normal;
+}
+.contacts-list-item {
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    position: relative;
+}
+.contacts-list-item-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    color: #666;
+    display: inline-block;
+    position: absolute;
+}
+.contacts-list-item-descr {
+    margin-left: 150px;
+    line-height: 24px;
+}
+.contacts-list-item-tel {
+    display: block;
+    color: #cc9933;
+}
+.contacts-list-item-email-span {
+    display: block;
+}
+.contacts-list-item-email {
+    color: #cc9933;
+}
+.contacts-btn {
+    margin: 30px 0;
+    background-color: #fff;
+    border: 1px solid #cc9933;
+    color: #cc9933;
+    font-weight: 700;
+}
+.blog {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blog-title {
+    margin: 0 auto 30px;
+}
+.blog-input-btn {
+    margin-bottom: 25px;
+    padding: 30px 20px;
+    width: 340px;
+    height: 75px;
+}
+.blog-text-area-btn {
+    margin-bottom: 25px;
+    padding: 20px;
+    width: 340px;
+    height: 110px;
+}
+.blog-submit-btn {
+    padding: 0;
+    color: #fff;
+    background-color: #cc9933;
+    border: 1px solid #cc9933;
+    width: 340px;
+    height: 75px;
+}
+.quick-reservation-btn-sumbit:hover {
+    color: #cc9933;
+	background-color: #fff;
+    transition: 0.3s;
+    border: 1px #cc9933 solid;
+}
+.blog-submit-btn:hover {
+    color: #cc9933;
+	background-color: #fff;
+    transition: 0.3s;
+    border: 1px #cc9933 solid;
+}
+.placement-list-item-btn:hover {
+    color: #fff;
+	background-color: #cc9933;
+    transition: 0.3s;
+    border: 1px #fff solid;
+}
+.contacts-btn:hover {
+    color: #fff;
+	background-color: #cc9933;
+    transition: 0.3s;
+    border: 1px #fff solid;
+}
+@media (max-width: 1220px) {
+    .quick-reservation {
+        padding-top: 30px;
+    }
+    .quick-reservation-flex-wrap {
+        flex-wrap: wrap;
+    }
+    .quick-reservation-right-column {
+        margin-bottom: 50px;
+        min-width: 100%;
+        order: -1;
+    }
+    .quick-reservation-img {
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .quick-reservation-left-column {
+        margin: 0 auto;
+        max-width: 55%;
+    }
+    .quick-reservation {
+        margin-bottom: 50px;
+    }
+    .about-us-description {
+        padding-right: 40px;
+    }
+    .services-list-item-article { 
+        padding: 20px;
+    }
+    .services-list-item {
+        margin-right: 20px;
+        min-width: 290px;
+    }
+    .advantages-list-item {
+        padding: 20px;
+    }
+    .placement-list-item {
+        margin-right: 20px;
+    }
+    .contacts-wrap {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 900px) {
+    .contacts {
+        margin: 0 auto 50px;
+        width: auto;
+    }
+    .contacts-and-blog-wrap {
+        flex-wrap: wrap;
+    }
+    .blog {
+        margin: 0 auto;
+        width: auto;
+    }
+}
+@media (max-width: 800px) {
+    .quick-reservation-article-title {
+        font-size: 50px;
+    }
+    .quick-reservation-img {
+        object-fit: fill;
+    }
+    .quick-reservation-left-column {
+        max-width: 70%;
+    }
+    .advantages-list-item {
+        max-width: 47%;
+    }
+    
+}
+@media (max-width: 600px) {
+    .quick-reservation-left-column {
+        max-width: 100%;
+    }
+    .advantages-list-item {
+        max-width: 100%;
+    }
+    .quick-reservation-article {
+        padding: 100px 30px 40px 20px;
+    }
+    .quick-reservation-img {
+        min-width: 290px;
+    }
+    .section-title {
+		margin-left: 20px;
+		font-size: 30px;
+    }
+    .placement-list-item-wrap { 
+        padding: 20px;
+    }
+    .blog-input-btn, .blog-text-area-btn, .blog-submit-btn {
+        width: auto;
+        min-width: 290px;
+    }
+ 
+
+}
+@media (max-width: 420px) {
+    .placement-list-item:last-child {
+        padding-top: 320px;
+    }
+
+}
+@media (max-width: 400px) {
+    .placement-list-item:last-child {
+        padding-top: 285px;
+    }
+
+}
+@media (max-width: 350px) {
+    .placement-list-item-price {
+        padding-bottom: 15px;
+        background-position: left bottom;
+    }
+    .placement-list-item:last-child {
+        padding-top: 240px;
+    }
+    .contacts {
+        max-width: 290px;
+    }
+    .contacts-list-item-descr {
+        margin-left: 125px;
+    }
+
+}
+
+
+
